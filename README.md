@@ -2,17 +2,18 @@
 
 This is an *Authentication* app that I built with **React.js** and using **Auth0**.
 
-**Topics:** State and Authentication, Auth0
+**Topics:** Authentication, Auth0
 
 I embarked on this project as a series of practice exercises after dedicating a couple of years to learning front-end web development. My goal was twofold: to enhance my coding skills and bolster my resume, ultimately preparing myself for the job market.
 
 Project number: 9
 
-*Notice:* You should create your auth0 account follow these steps:
-[] Create .env file
-[] Assign your domain and client id to: REACT_APP_AUTH0_DOMAIN and REACT_APP_AUTH0_CLIENT_ID
-[] Replace values of domain and clientId in index.js and use `process.env` to assign the actual values
-[] Put the .env file in .gitignore file if you plan to publish your code
+*Notice:* You should create your auth0 account and follow the steps below for using the app:
+
++ Create .env file
++ Assign your domain and client id to: REACT_APP_AUTH0_DOMAIN and REACT_APP_AUTH0_CLIENT_ID
++ Replace values of domain and clientId in index.js and use `process.env` to assign the actual values
++ Put the .env file in .gitignore file if you plan to publish your code
 
 ---
 
