@@ -1,11 +1,13 @@
 import LoginButton from './components/LoginButton';
 import LogoutButton from './components/LogoutButton';
+import Profile from './components/Profile';
 
 function App() {
   return (
-    <div className='flex justify-center m-5'>
+    <div className='m-5'>
       <LoginButton />
       <LogoutButton />
+      <Profile />
     </div>
   );
 }
