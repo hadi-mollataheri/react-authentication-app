@@ -3,12 +3,15 @@ import { useAuth0 } from "@auth0/auth0-react";
 import JSONPretty from "react-json-pretty";
 
 function Profile() {
-    const {user} = useAuth0();
+    const {user , isAuthenticated} = useAuth0();
     return (
-        <div>
+        isAuthenticated && (<div>
+            <img src={user.picture} alt={user.name} />
+            <h2>{user.name}</h2>
+            <h3>{user.email}</h3>
             <JSONPretty data={user}></JSONPretty>
             {/* {JSON.stringify(user, null, 2)} */}
-        </div>
+        </div>)
     );
 }
 
