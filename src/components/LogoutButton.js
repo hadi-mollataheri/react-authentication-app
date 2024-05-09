@@ -6,7 +6,7 @@ function LogoutButton() {
   return (
     <button
       onClick={() => logout()}
-      className='border border-black p-1 rounded-md'
+      className='border border-black p-1 rounded-md m-1 bg-red-500'
     >
       Log out
     </button>
